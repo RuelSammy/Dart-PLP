@@ -1,0 +1,32 @@
+name: my_pocket_wallet
+description: "A new Flutter project."
+
+# Prevent accidental publishing to pub.dev
+publish_to: 'none'
+
+# Versioning
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  # Uncomment these when you're ready to use Firebase or glassmorphism
+  # firebase_core: ^3.8.1
+  # firebase_auth: ^5.3.4
+  # glassmorphism_widgets: ^0.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Register assets correctly
+  assets:
+    - assets/images/
